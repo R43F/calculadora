@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="calc.css">
+
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <h1 id="titulo">Calculadora</h1>
+    <div class="container-painel">
+        <input class="entrada" id="in1" />
+        <span class="label" id="lb-operacao">[]</span>
+        <input class="entrada" id="in2" />
+        <span class="label" id="lb-resultado">=</span>
+        <input disabled='true' class="saida" id="out">
+    </div>
+    <div class="container-controle">
+        <button class="botao", id="mult" onclick="opera(this.id);">X</button>
+        <button class="botao", id="div" onclick="opera(this.id);">/</button>
+        <button class="botao", id="soma" onclick="opera(this.id);">+</button>
+        <button class="botao", id="sub" onclick="opera(this.id);">-</button><br>
+        <button class="botao", id="limpa" onclick="limpa();">LIMPAR</button>
+    </div>
+    <!-- Optional JavaScript -->
+    <script type="text/javascript" src="../calculadora/calc.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

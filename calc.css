@@ -1,0 +1,35 @@
+.container-painel{
+    margin-left: 50%;
+    padding: 1em;
+}
+.container-controle{
+    margin-left: 50%;
+    padding: 1em;
+}
+.entrada{
+    width: 40px;
+    text-align: center;
+}
+.saida{
+    width: 60px;
+    text-align: center;
+}
+.label{
+    width: 20px;    
+}
+#lb-operacao{
+    margin: 0px;
+}
+#lb-resultado{
+    margin: 0px;
+}
+.botao{
+    padding: 0,5em;
+    margin: 8px;
+}
+#limpa{
+    width: 150px;
+}
+#titulo{
+    margin-left: 50%;
+}
