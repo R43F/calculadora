@@ -1,21 +1,25 @@
 .container-painel{
-    margin-left: 50%;
+    margin-left: 20%;
     padding: 1em;
 }
 .container-controle{
-    margin-left: 50%;
+    margin-left: 20%;
     padding: 1em;
 }
 .entrada{
     width: 40px;
     text-align: center;
+    background-color: #C5AFA4;
+    caret-color:#F702d4;
 }
 .saida{
     width: 60px;
     text-align: center;
+    background-color: #C5AFA4;
 }
 .label{
-    width: 20px;    
+    width: 20px;
+    color: #A9A587;
 }
 #lb-operacao{
     margin: 0px;
@@ -24,12 +28,21 @@
     margin: 0px;
 }
 .botao{
-    padding: 0,5em;
+    width: 25px;
+    padding-right: 0.4em;
     margin: 8px;
+    cursor: pointer;
+    background-color: #A9A587;
+    border: #30292F;
 }
 #limpa{
     width: 150px;
+    margin: 12px;
 }
 #titulo{
-    margin-left: 50%;
+    margin-left: 20%;
+    color: #587291;
+}
+body{
+    background-color: #30292F;
 }
