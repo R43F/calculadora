@@ -14,8 +14,9 @@
 }
 .saida{
     width: 60px;
+    font-size: 120%;
     text-align: center;
-    background-color: #C5AFA4;
+    /* background-color: #C5AFA4; */
     color: red;
 }
 .label{

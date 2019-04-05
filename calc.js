@@ -5,6 +5,7 @@ operacao = 'X';
 function opera(op){
     n1 = Number(document.getElementById('in1').value);
     n2 = Number(document.getElementById('in2').value);
+    resultado = 0
 
     operacao = document.getElementById(op).innerHTML;
     document.getElementById('lb-operacao').innerHTML = operacao;
