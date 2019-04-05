@@ -23,12 +23,12 @@ function opera(op){
             resultado = n1 - n2;
             break
     }
-    document.getElementById('out').value = resultado;
+    document.getElementById('out').innerHTML = resultado;
 }
 
 function limpa(){
     document.getElementById('in1').value = "";
     document.getElementById('in2').value = "";
-    document.getElementById('out').value = "";
+    document.getElementById('out').innerHTML = "";
     document.getElementById('lb-operacao').innerHTML = '[]';
 }
