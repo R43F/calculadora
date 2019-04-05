@@ -5,7 +5,6 @@ operacao = 'X';
 function opera(op){
     n1 = Number(document.getElementById('in1').value);
     n2 = Number(document.getElementById('in2').value);
-    resultado = 0
 
     operacao = document.getElementById(op).innerHTML;
     document.getElementById('lb-operacao').innerHTML = operacao;
@@ -24,7 +23,7 @@ function opera(op){
             resultado = n1 - n2;
             break
     }
-    document.getElementById('out').innerHTML = resultado;
+    document.getElementById('out').innerHTML = String(resultado);
 }
 
 function limpa(){
