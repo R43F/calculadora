@@ -14,7 +14,7 @@
   <body>
     <h1 id="titulo">Calculadora</h1>
     <div class="container-painel">
-        <input class="entrada" id="in1" />
+        <input class="entrada" id="in1" autofocus/>
         <span class="label" id="lb-operacao">[]</span>
         <input class="entrada" id="in2" />
         <span class="label" id="lb-resultado">=</span>
@@ -22,11 +22,13 @@
         <!-- <input type="number" class="saida" id="out"> -->
     </div>
     <div class="container-controle">
-        <button class="botao", id="mult" onclick="opera(this.id);">X</button>
-        <button class="botao", id="div" onclick="opera(this.id);">/</button>
-        <button class="botao", id="soma" onclick="opera(this.id);">+</button>
-        <button class="botao", id="sub" onclick="opera(this.id);">-</button><br>
-        <button class="botao", id="limpa" onclick="limpa();">LIMPAR</button>
+        <button class="botao", id="mult" onclick="realiza(this.id);">X</button>
+        <button class="botao", id="div" onclick="realiza(this.id);">/</button>
+        <button class="botao", id="soma" onclick="realiza(this.id);">+</button>
+        <button class="botao", id="sub" onclick="realiza(this.id);">-</button><br>
+        <button class="botao", id="limpa" onclick="limpa();">LIMPAR</button><br>
+        <button class="botao", id="seq" onclick="sequencia();">SEQ</button>
+        <apan class="seq-ativo" id="ativo">O</apan>
     </div>
     <!-- Optional JavaScript -->
     <script type="text/javascript" src="../calculadora/calc.js"></script>

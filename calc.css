@@ -41,10 +41,17 @@
     width: 150px;
     margin: 12px;
 }
+#seq{
+    width: 150px;
+    margin: 12px;
+}
 #titulo{
     margin-left: 20%;
     color: #587291;
 }
 body{
     background-color: #30292F;
+}
+.seq-ativo::{
+    width: 20px;
 }
